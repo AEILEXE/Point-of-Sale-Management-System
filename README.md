@@ -61,8 +61,8 @@
 
 ### Option C — Run from source
 ```bash
-git clone https://github.com/AEILEXE/aissas-kitchenette-pos.git
-cd aissas-kitchenette-pos/aissas_pos_system
+git clone https://github.com/AEILEXE/Point-of-Sale-Management-System.git
+cd Point-of-Sale-Management-System/aissas_pos_system
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -71,13 +71,11 @@ python main.py
 
 ---
 
-## Default Login
+## First Login
 
-| Role | Username | Password |
-|------|----------|----------|
-| Administrator | admin | admin123 |
-
-> Change the default password after first login.
+An administrator account is created on first run. Default credentials are
+not published here; obtain them from the project administrator and change
+the password immediately after first login.
 
 ---
 
